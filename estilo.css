@@ -1,0 +1,140 @@
+#barra-topo {
+    width: 100%;
+    height: 40px;
+    background: red;
+    text-align: center;
+    color: #ffffff;
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#menu{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #ccc;
+}
+#menu ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 6%;
+    font-weight: bold;
+}
+
+#destaques{
+    width: 100%;
+    height: 300px;
+}
+#destaque1{
+    width: 69%;
+    height: 300px;
+    float: left;
+}
+#destaque1 img{
+    width: 100%;
+    height: 300px;
+}
+#destaque2{
+    width: 30%;
+    height: 300px;
+    float: right;
+}
+#destaA img{
+    width: 100%;
+    height: 140px;
+}
+#destaB img{
+    margin-top: 16px;
+    width: 100%;
+    height: 140px;
+}
+
+/*configurações da div centro*/ 
+
+#centro{
+    width: 100%;
+    height: 500px;
+}
+#fotos{
+    width: 69%;
+    float: left;
+}
+#foto1{
+    width: 30%;
+}
+#foto2{
+    width: 30%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#foto3{
+    width: 30%;
+    float: right;
+}
+
+#lista-fotos{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#fotos h2{
+    background: #ccc;
+    text-align: center;
+}
+#lista-fotos li{
+    list-style: none;
+    width: 20%;
+    float: left;
+    
+
+}
+#lista-fotos li img{
+    width: 100%;
+    height: 120px;
+}
+
+
+#lista-jogos{
+    width: 30%;
+    float: right;
+}
+#lista-jogos ul{
+    margin: 0;
+    padding: 0;
+}
+#lista-jogos ul li{
+    padding: 17px;
+    border-bottom: solid 1px;
+    list-style: none;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+#lista-jogos h2{
+    background: #ccc;
+    text-align: center;
+}
+
+#noticias{
+    width: 100%;
+    height: 120px;
+    background: #000;
+}
+#noticia1{
+    width: 50%;
+    height: 120px;
+    float: left;
+    background: #0000cc;
+}
+#noticia2{
+    width: 50%;
+    height: 120px;
+    float: right;
+    background: #cccccc;
+}
